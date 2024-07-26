@@ -1,0 +1,139 @@
+/* 공통 스타일 */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #009688, #26a69a);
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* 메인 페이지 스타일 */
+.main-container {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h2 {
+    margin: 10px 0;
+    color: #009688;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+}
+
+.card-content p {
+    color: #666;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #009688;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.card-link:hover {
+    background: #00796b;
+}
+
+/* 개별 멤버 페이지 스타일 */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #009688;
+    border-bottom: 2px solid #009688;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #009688;
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+ul li:hover {
+    background: #00796b;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+    padding: 10px;
+    background: #e0f2f1;
+    border-radius: 5px;
+}
